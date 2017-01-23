@@ -8,7 +8,7 @@
     <artifactId>java-udf</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>pig-udf</name>
+    <name>java-udf</name>
     <url>http://maven.apache.org</url>
 
     <properties>

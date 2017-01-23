@@ -1,4 +1,4 @@
-package util;
+package com.sdh.util;
 
 import org.apache.pig.backend.executionengine.ExecException;
 import org.apache.pig.data.BagFactory;

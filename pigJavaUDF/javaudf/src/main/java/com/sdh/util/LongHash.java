@@ -1,4 +1,4 @@
-package util;
+package com.sdh.util;
 
 /**
  * Created by fuliangliang on 15/8/31.

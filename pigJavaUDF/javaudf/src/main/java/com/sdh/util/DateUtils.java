@@ -1,4 +1,4 @@
-package util;
+package com.sdh.util;
 
 import org.apache.commons.lang.time.FastDateFormat;
 

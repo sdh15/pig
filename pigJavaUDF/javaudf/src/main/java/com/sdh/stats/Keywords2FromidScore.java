@@ -1,6 +1,5 @@
-package com.sdh;
+package com.sdh.stats;
 
-import util.HttpRequestService;
 import org.apache.pig.EvalFunc;
 import org.apache.pig.backend.executionengine.ExecException;
 import org.apache.pig.data.BagFactory;
@@ -17,7 +16,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+import com.sdh.util.HttpRequestService;
 import static java.util.Arrays.asList;
 
 /**
@@ -126,6 +125,6 @@ public class Keywords2FromidScore extends EvalFunc<DataBag> {
         Tuple res=TupleFactory.getInstance().newTuple(1);
         res.set(0,keywordDataBag);
         DataBag resDataBag=new Keywords2FromidScore().exec(res);
-
+        System.out.println("done");
     }
 }

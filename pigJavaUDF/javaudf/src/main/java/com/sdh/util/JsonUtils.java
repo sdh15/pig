@@ -1,4 +1,4 @@
-package util;
+package com.sdh.util;
 
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.ObjectMapper;
